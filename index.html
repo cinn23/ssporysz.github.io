@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<title>Sylwia Sporysz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<!-- Nav -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> O MNIE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">O MNIE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">KONTAKT</a>
+    <a href="#" class="w3-bar-item w3-button">SZUKAJ</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SYLWIA <span class="w3-hide-small">SPORYSZ</span> Front-end Developer</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">O MNIE</h3>
+  <p class="w3-center"><em>Jestem estetką</em></p>
+    <p>Jestem zafascynowana pięknem naszego świata. Staram się je dostrzegać, podziwiać i sprawiać by nie zostało pominięte przez nikogo. Jednym ze sposobów jest malarstwo. Zajmuję się malowaniem wszytskiego i na wszytskim, aby choć troszkę uchwycić i przekazać piękno nas otaczające. Na co dzień prowadzą sklep Internetowy <a href="http://trickstershop.pl" target="_blank"> TRICKSTERshop.pl</a>, gdzie można zamawiać ręcznie malowane koszulki, torby, czapki, buty czy obrazy. W czasie wolnym rozwijam swoją nową pasję, czyli web development, którym zainteresowałam się przy tworzeniu strony dla swojego sklepu. Poznaję nowe technologie, języki i staram się tworzyć samodzielne strony i projekty, a wszytsko to by w najbliższej przyszłości zostać z krwi i kości Front-end Developerem.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Sylwia Sporysz</b></p><br>
+      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Swoją przygodę z tworzeniem stron Internetowych zaczęłam od pomocy przy tworzeniu sklepu Internetowego TRICKSTERshop za pomocą platfromy prestashop. Cały proces powstawania sklepu tak bardzo mnie zafascynował i pochłonął, że postanowiłam rozwijać swoją nową pasję. Rozpoczęłam od poznania języka znaczników HTML, następnie arkuszy stylów CSS, responsywnego projektowania stron, a obecnie zgłębiam język  Java Script. Poniżej znajdują się moje projekty, dzięki którym stawiałam pierwsze kroki w projektowaniu. Obejmują wstępną wersję dużej strony na temat mojej pasji - Eksploracji miejskiej, zarys blogu związanego ze sztuką, proste portfolio w kafelkowym stylu oraz przykłady użycia javy scriptu w panelu accordion czy pokazie slajdów. Moja fascynacja web developmentem ciągle rośnie, tak więc mam nadzieje, na nieustanny rozwój i co raz ciekawsze projekty.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Czuję się dobrze w:</p>
+  <p class="w3-wide">HTML5</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+    <p class="w3-wide">CSS3</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+  <p class="w3-wide">Java Script</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:35%">35%</div>
+  </div>
+  <p class="w3-wide">Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:45%">45%</div>
+  </div>
+</div>
+
+<!--
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+-->
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Moje prace</h3>
+  
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="trickstershop.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="TRICKSTERshop.pl">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="urbex.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Urban Exploration - Urbex">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="landing.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Landing Page">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="sylwiasporysz/dark%20side%20of%20art.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Blog Dark Side of Art">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="sylwiasporysz/portfolio.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Portfolio - Sylwia Sporysz">
+    </div>
+
+    <div class="accordion.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Accordion Panel">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="slajder.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Slajder">
+    </div>
+    <!--
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Więcej</button>
+  </div> -->
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Kontakt</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Gdzie pracuje</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bielsko-Biała, PL<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefon: +48 57 57 9 1111<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: sporyszsylwia@gmail.com<br>
+      </div>
+      <p>Wpadnij na kawę <i class="fa fa-coffee"></i>, lub zostaw mi wiadomość:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Imię" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Wiadomość" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> Wyślij wiadomość
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Na górę</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+<script type="text/javascript" src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxoOhgpdI_yTLIRKZtLWxVZhqU2vf0V8Q&callback=myMap"></script>
+
+
+    </body>
+    </html>
